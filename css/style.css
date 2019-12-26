@@ -1,0 +1,132 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#footer {
+  padding: 2% 0 1%;
+  display: inline-block;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  border-top: 5px solid #adacac;
+}
+.fas, .fab {
+    color: #082B69 !important;
+    margin: 0 2% 1% 2%;
+    font-size: 2em;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10% 1fr 10%;
+}
+
+.container {
+  grid-column: 1 / -1;
+  grid-row: 2 / span 1;
+}
+
+p {
+	font-family: "Georgia", times;
+	font-size: 1em;
+	color: #F6FAFF;
+}
+
+header {
+	grid-column: 1 / -1;
+	grid-row: 1;
+	position: absolute;
+	top: 3%;
+}
+
+h1 {
+	font-size: 1.4em;
+}
+
+h2 {
+	font-size: 1em;
+}
+
+.nav{
+  vertical-align: middle;
+  grid-column: 1 / -1;
+  grid-row: 1 / span 1;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr;
+  font-size: 0.5em;
+  background-color: #ffffff;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-bottom: -0.5%;
+  border-bottom: 5px solid #adacac;
+}
+
+.skip a{
+  background: white;
+  left: 0;
+  padding: 6px;
+  position: absolute;
+  top: -40px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+}
+
+.skip a:focus{
+  top:0px;
+}
+nav {
+  grid-column: 2 / span 1;
+  grid-row: 1 / -1;
+  text-align: right;
+  font-size: 1.5em;
+  padding-top: 5%;
+}
+nav li{
+	padding-right: 2%;
+}
+nav ul{
+  list-style-type: none;
+}
+
+nav li{
+  display: inline-block;
+}
+
+nav a{
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover{
+  border-bottom: 1px solid #474A51;
+}
+
+nav a.active {
+  border-bottom: 2px solid #474A51;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.home_image{
+	padding-top: 2%;
+	grid-column: 1 / -1;
+	grid-row: 1 / span 1;
+	text-align: center;
+}
+
+.home_text {
+	padding-top: 1%;
+	grid-column: 1 / -1;
+	grid-row: 2 / span 1;
+	text-align: center;
+	line-height: 1.5em;
+}
+body{
+	background-color: #082B69;
+}
+
