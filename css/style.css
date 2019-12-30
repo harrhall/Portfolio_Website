@@ -11,7 +11,7 @@ html{
   text-align: center;
   width: 100%;
   border-top: 5px solid #adacac;
-  position: absolute
+  position: absolute;
   bottom: 0;
 }
 .fas, .fab {
@@ -45,11 +45,11 @@ header {
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 1.5em;
 }
 
 h2 {
-	font-size: 2em;
+	font-size: 1em;
 }
 
 .nav{
@@ -59,7 +59,7 @@ h2 {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 1fr;
-  font-size: 1em;
+  font-size: 0.5em;
   background-color: #ffffff;
   padding-left: 2%;
   padding-right: 2%;
