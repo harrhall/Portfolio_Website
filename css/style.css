@@ -11,6 +11,8 @@ html{
   text-align: center;
   width: 100%;
   border-top: 5px solid #adacac;
+  position: absolute
+  bottom: 0;
 }
 .fas, .fab {
     color: #082B69 !important;
