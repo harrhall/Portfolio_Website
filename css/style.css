@@ -13,7 +13,7 @@ html{
   border-top: 5px solid #adacac;
   position: absolute;
   bottom: 0;
-  grid-row: -1 / span;
+  grid-row: -1 / auto;
 }
 .fas, .fab {
     color: #082B69 !important;
