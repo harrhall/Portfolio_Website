@@ -65,7 +65,7 @@ h2 {
 }
 
 .skip a{
-  background: white;
+  background: #ffffff;
   left: 0;
   padding: 6px;
   position: absolute;
@@ -127,4 +127,40 @@ nav a.active {
 }
 body{
 	background-color: #082B69;
+}
+
+.contact_image {
+  display: none;
+}
+
+.contact_info {
+  grid-row: 2;
+  text-align: center;
+  line-height: 1.3em;
+}
+
+.email_form {
+  grid-row: 3;
+  text-align: center;
+}
+
+#email_lb {
+  font-size: 1.2em;
+  padding-bottom: 1%;
+}
+
+form{
+  display:inline-block;
+  text-align: left;
+  line-height: 1.5em;
+  border: 2.3px dashed #ffffff;
+  padding: 1%;
+  border-radius: 7%;
+}
+
+label {
+  color: #ffffff;
+}
+a{
+  color: #FFE917;
 }
